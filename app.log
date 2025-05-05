@@ -341,3 +341,128 @@ FROM employees ORDER BY employees.id]
 2025-05-05 22:18:04,238 [INFO] auth: Аутентификация успешна: qwer
 2025-05-05 22:18:04,239 [INFO] ui.login_widget: Успешный вход: qwer
 2025-05-05 22:18:04,239 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:00:40,946 [INFO] root: Запуск приложения
+2025-05-05 23:00:51,720 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 23:00:51,720 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 23:00:51,722 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:02:04,424 [INFO] root: Запуск приложения
+2025-05-05 23:02:13,287 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 23:02:13,288 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 23:02:13,288 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:02:37,417 [INFO] root: Запуск приложения
+2025-05-05 23:02:48,437 [WARNING] auth: Аутентификация не удалась: qwer
+2025-05-05 23:02:58,664 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 23:02:58,664 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 23:02:58,665 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:07:47,439 [INFO] root: Запуск приложения
+2025-05-05 23:07:53,037 [INFO] auth: Аутентификация успешна: da
+2025-05-05 23:07:53,037 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 23:07:53,038 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 23:07:53,065 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 23:07:53,066 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 23:10:07,159 [INFO] root: Запуск приложения
+2025-05-05 23:10:11,534 [INFO] auth: Аутентификация успешна: da
+2025-05-05 23:10:11,534 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 23:10:11,535 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 23:10:11,562 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 23:10:11,563 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 23:10:20,849 [INFO] root: Запуск приложения
+2025-05-05 23:10:29,100 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 23:10:29,101 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 23:10:29,101 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:10:38,324 [INFO] controllers: Запрошен отпуск 25 дн. для сотрудника 1
+2025-05-05 23:10:53,102 [INFO] root: Запуск приложения
+2025-05-05 23:10:56,756 [INFO] auth: Аутентификация успешна: da
+2025-05-05 23:10:56,757 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 23:10:56,757 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 23:10:56,793 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 23:10:56,794 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 23:13:17,434 [INFO] root: Запуск приложения
+2025-05-05 23:13:22,500 [INFO] auth: Аутентификация успешна: da
+2025-05-05 23:13:22,500 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 23:13:22,501 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 23:13:22,529 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 23:13:22,529 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 23:13:27,769 [INFO] root: Запуск приложения
+2025-05-05 23:13:36,047 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 23:13:36,048 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 23:13:36,048 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:13:44,873 [INFO] controllers: Обновлён сотрудник: 1
+2025-05-05 23:21:20,663 [INFO] root: Запуск приложения
+2025-05-05 23:21:25,524 [INFO] auth: Аутентификация успешна: da
+2025-05-05 23:21:25,525 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 23:21:25,526 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 23:21:25,553 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 23:21:25,553 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 23:21:33,977 [INFO] controllers: Обновлён сотрудник: 1
+2025-05-05 23:21:34,936 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 23:21:34,937 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 23:21:41,725 [INFO] root: Запуск приложения
+2025-05-05 23:21:49,722 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 23:21:49,723 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 23:21:49,723 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:22:47,752 [INFO] root: Запуск приложения
+2025-05-05 23:22:56,830 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 23:22:56,831 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 23:22:56,832 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:22:56,836 [ERROR] ui.employee_profile_widget: Ошибка БД при загрузке профиля: (sqlite3.OperationalError) no such column: employees.profile_photo
+[SQL: SELECT employees.id AS employees_id, employees.user_id AS employees_user_id, employees.first_name AS employees_first_name, employees.last_name AS employees_last_name, employees.position AS employees_position, employees.passport AS employees_passport, employees.profile_photo AS employees_profile_photo, employees.birth_year AS employees_birth_year, employees.experience_years AS employees_experience_years, employees.hire_date AS employees_hire_date, employees.phone_mobile AS employees_phone_mobile, employees.phone_work AS employees_phone_work, employees.vacation_days_left AS employees_vacation_days_left 
+FROM employees 
+WHERE employees.user_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: (2, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-05 23:24:08,363 [INFO] root: Запуск приложения
+2025-05-05 23:24:09,704 [INFO] auth: Зарегистрирован пользователь: da (hr)
+2025-05-05 23:24:12,643 [INFO] auth: Аутентификация успешна: da
+2025-05-05 23:24:12,644 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 23:24:12,644 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 23:24:12,669 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 23:24:12,669 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 23:24:19,786 [INFO] root: Запуск приложения
+2025-05-05 23:24:22,554 [INFO] auth: Аутентификация успешна: da
+2025-05-05 23:24:22,555 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 23:24:22,556 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 23:24:22,580 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 23:24:22,581 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 23:25:12,586 [INFO] auth: Зарегистрирован пользователь: qwer (employee)
+2025-05-05 23:25:12,700 [INFO] controllers: Создан сотрудник: 1 — Dmitry Samarin
+2025-05-05 23:25:13,826 [INFO] controllers: Найдено сотрудников: 1 (search='')
+2025-05-05 23:25:13,827 [INFO] ui.hr_dashboard_widget: Loaded 1 employees
+2025-05-05 23:25:26,617 [INFO] controllers: Найдено сотрудников: 1 (search='')
+2025-05-05 23:27:08,781 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-05 23:27:08,906 [INFO] controllers: Создан сотрудник: 2 — Arisha Myauw
+2025-05-05 23:27:09,930 [INFO] controllers: Найдено сотрудников: 2 (search='')
+2025-05-05 23:27:09,930 [INFO] ui.hr_dashboard_widget: Loaded 2 employees
+2025-05-05 23:28:15,847 [INFO] auth: Зарегистрирован пользователь: test (employee)
+2025-05-05 23:28:15,965 [INFO] controllers: Создан сотрудник: 3 — ТЕСТ ТЕСТ
+2025-05-05 23:28:17,908 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 23:28:17,909 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 23:28:23,623 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 23:28:37,803 [INFO] root: Запуск приложения
+2025-05-05 23:28:46,957 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 23:28:46,958 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 23:28:46,959 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:30:28,363 [INFO] root: Запуск приложения
+2025-05-05 23:30:39,082 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 23:30:39,082 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 23:30:39,083 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:30:39,108 [ERROR] ui.employee_profile_widget: Ошибка загрузки медиа: 'Employee' object has no attribute 'photos'
+2025-05-05 23:31:19,198 [INFO] root: Запуск приложения
+2025-05-05 23:31:26,595 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 23:31:26,595 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 23:31:26,596 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:31:26,621 [ERROR] ui.employee_profile_widget: Ошибка загрузки медиа: 'Employee' object has no attribute 'photos'
+2025-05-05 23:31:26,626 [ERROR] ui.employee_profile_widget: Ошибка загрузки медиа: 'Employee' object has no attribute 'docs'
+2025-05-05 23:32:24,372 [INFO] root: Запуск приложения
+2025-05-05 23:32:31,826 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 23:32:31,827 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 23:32:31,828 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 23:32:31,852 [ERROR] ui.employee_profile_widget: Ошибка загрузки медиа: 'Employee' object has no attribute 'photos'
+2025-05-05 23:32:31,856 [ERROR] ui.employee_profile_widget: Ошибка загрузки медиа: 'Employee' object has no attribute 'docs'
+2025-05-05 23:34:30,109 [INFO] root: Запуск приложения
+2025-05-05 23:34:33,998 [INFO] auth: Аутентификация успешна: da
+2025-05-05 23:34:33,998 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 23:34:34,000 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 23:34:34,033 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 23:34:34,034 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
