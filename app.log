@@ -1,0 +1,331 @@
+2025-05-05 20:47:40,353 [INFO] __main__: Запуск приложения
+2025-05-05 20:47:45,079 [INFO] __main__: Завершение работы приложения
+2025-05-05 20:48:23,977 [INFO] __main__: Запуск приложения
+2025-05-05 20:48:30,081 [INFO] __main__: Завершение работы приложения
+2025-05-05 20:49:29,310 [INFO] __main__: Запуск приложения
+2025-05-05 20:49:56,494 [INFO] __main__: Завершение работы приложения
+2025-05-05 20:50:46,252 [INFO] __main__: Запуск приложения
+2025-05-05 20:50:46,622 [INFO] auth: Новый пользователь зарегистрирован: admin (hr)
+2025-05-05 20:50:46,623 [INFO] __main__: HR user created: admin / Admin123!
+2025-05-05 20:50:57,809 [WARNING] auth: Аутентификация не удалась: admin
+2025-05-05 20:51:08,883 [INFO] auth: Аутентификация успешна: admin
+2025-05-05 20:51:08,884 [INFO] __main__: Пользователь admin вошёл как hr
+2025-05-05 20:52:26,893 [INFO] __main__: Запуск приложения
+2025-05-05 20:52:27,141 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 20:52:37,536 [INFO] auth: Аутентификация успешна: admin
+2025-05-05 20:52:37,537 [INFO] __main__: Пользователь admin вошёл как hr
+2025-05-05 20:52:37,549 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 20:56:17,787 [INFO] __main__: Запуск приложения
+2025-05-05 20:56:18,033 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 20:56:27,646 [INFO] __main__: Завершение работы приложения
+2025-05-05 20:56:34,003 [INFO] __main__: Запуск приложения
+2025-05-05 20:56:34,250 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 20:56:37,453 [INFO] __main__: Завершение работы приложения
+2025-05-05 20:56:43,903 [INFO] __main__: Запуск приложения
+2025-05-05 20:56:44,851 [INFO] auth: Новый пользователь зарегистрирован: admin (hr)
+2025-05-05 20:56:44,851 [INFO] __main__: HR user created: admin / Admin123!
+2025-05-05 20:56:50,673 [WARNING] auth: Аутентификация не удалась: admin
+2025-05-05 20:56:51,927 [INFO] __main__: Завершение работы приложения
+2025-05-05 20:57:06,995 [INFO] __main__: Запуск приложения
+2025-05-05 20:57:07,909 [INFO] auth: Новый пользователь зарегистрирован: admin (hr)
+2025-05-05 20:57:07,910 [INFO] __main__: HR user created: admin / admin
+2025-05-05 20:57:11,037 [INFO] auth: Аутентификация успешна: admin
+2025-05-05 20:57:11,038 [INFO] __main__: Пользователь admin вошёл как hr
+2025-05-05 20:57:11,048 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 20:57:51,832 [INFO] __main__: Запуск приложения
+2025-05-05 20:57:52,082 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 20:57:56,597 [INFO] auth: Аутентификация успешна: admin
+2025-05-05 20:57:56,598 [INFO] __main__: Пользователь admin вошёл как hr
+2025-05-05 20:57:56,607 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 20:58:06,315 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 20:58:07,348 [INFO] __main__: Завершение работы приложения
+2025-05-05 20:58:09,320 [INFO] __main__: Запуск приложения
+2025-05-05 20:58:09,567 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 20:58:18,864 [INFO] auth: Аутентификация успешна: admin
+2025-05-05 20:58:18,864 [INFO] __main__: Пользователь admin вошёл как hr
+2025-05-05 20:58:18,874 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 20:58:20,523 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:06:51,145 [INFO] __main__: Запуск приложения
+2025-05-05 21:06:52,109 [INFO] auth: Новый пользователь зарегистрирован: admin (hr)
+2025-05-05 21:06:52,109 [INFO] __main__: HR user created: admin / Admin123!
+2025-05-05 21:07:27,878 [INFO] __main__: Запуск приложения
+2025-05-05 21:07:28,125 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:07:40,856 [WARNING] auth: Аутентификация не удалась: admin
+2025-05-05 21:07:46,392 [WARNING] auth: Аутентификация не удалась: admin
+2025-05-05 21:07:53,384 [INFO] auth: Аутентификация успешна: admin
+2025-05-05 21:07:53,384 [INFO] ui.login_widget: Успешный вход: admin
+2025-05-05 21:07:53,386 [INFO] __main__: Пользователь admin (hr) вошёл
+2025-05-05 21:08:31,610 [INFO] __main__: Запуск приложения
+2025-05-05 21:08:31,864 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:08:45,295 [WARNING] auth: Аутентификация не удалась: admin
+2025-05-05 21:08:47,812 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:08:57,221 [INFO] __main__: Запуск приложения
+2025-05-05 21:08:57,625 [INFO] auth: Новый пользователь зарегистрирован: 1 (hr)
+2025-05-05 21:08:57,625 [INFO] __main__: HR user created: admin / Admin123!
+2025-05-05 21:08:59,835 [WARNING] auth: Аутентификация не удалась: 1
+2025-05-05 21:09:05,488 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:09:09,499 [INFO] __main__: Запуск приложения
+2025-05-05 21:09:09,748 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:09:12,592 [WARNING] auth: Аутентификация не удалась: 1
+2025-05-05 21:09:15,721 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:09:23,336 [INFO] __main__: Запуск приложения
+2025-05-05 21:09:23,721 [INFO] auth: Новый пользователь зарегистрирован: da (hr)
+2025-05-05 21:09:23,722 [INFO] __main__: HR user created: admin / Admin123!
+2025-05-05 21:09:25,966 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:09:25,966 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:09:25,967 [INFO] __main__: Пользователь da (hr) вошёл
+2025-05-05 21:09:25,993 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:09:25,994 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:10:36,816 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:10:58,646 [INFO] __main__: Запуск приложения
+2025-05-05 21:10:58,895 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:11:05,159 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:11:05,160 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:11:05,161 [INFO] __main__: Пользователь da (hr) вошёл
+2025-05-05 21:11:05,186 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:11:05,187 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:12:03,349 [INFO] __main__: Запуск приложения
+2025-05-05 21:12:03,596 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:12:06,178 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:12:06,178 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:12:06,179 [INFO] __main__: Пользователь da (hr) вошёл
+2025-05-05 21:12:06,204 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:12:06,205 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:13:10,597 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:13:56,777 [INFO] __main__: Запуск приложения
+2025-05-05 21:13:57,025 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:14:00,792 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:14:00,793 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:14:00,793 [INFO] __main__: Пользователь da (hr) вошёл
+2025-05-05 21:14:00,819 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:14:00,819 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:15:57,478 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:16:14,287 [INFO] __main__: Запуск приложения
+2025-05-05 21:16:14,538 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:16:18,448 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:16:18,448 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:16:18,449 [INFO] __main__: Пользователь da (hr) вошёл
+2025-05-05 21:16:18,476 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:16:18,476 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:16:27,715 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:16:40,569 [INFO] __main__: Запуск приложения
+2025-05-05 21:16:40,821 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:16:43,265 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:16:43,265 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:16:43,266 [INFO] __main__: Пользователь da (hr) вошёл
+2025-05-05 21:16:43,289 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:16:43,290 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:16:49,229 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:16:57,684 [INFO] __main__: Запуск приложения
+2025-05-05 21:16:57,937 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:17:00,219 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:17:00,220 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:17:00,223 [INFO] __main__: Пользователь da (hr) вошёл
+2025-05-05 21:17:00,249 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:17:00,249 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:17:39,636 [INFO] __main__: Запуск приложения
+2025-05-05 21:17:39,884 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:17:42,275 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:17:42,275 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:17:42,276 [INFO] __main__: Пользователь da (hr) вошёл
+2025-05-05 21:17:42,301 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:17:42,301 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:17:48,115 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:17:55,358 [INFO] __main__: Запуск приложения
+2025-05-05 21:17:55,605 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:17:57,919 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:17:57,920 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:17:57,921 [INFO] __main__: Пользователь da (hr) вошёл
+2025-05-05 21:17:57,945 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:17:57,946 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:19:12,197 [INFO] auth: Новый пользователь зарегистрирован: qwer (employee)
+2025-05-05 21:19:12,304 [INFO] controllers: Создан сотрудник: 1 — qwer qwer
+2025-05-05 21:19:13,589 [INFO] controllers: Найдено сотрудников: 1 (search='')
+2025-05-05 21:19:13,590 [INFO] ui.hr_dashboard_widget: Loaded 1 employees
+2025-05-05 21:21:56,952 [INFO] __main__: Запуск приложения
+2025-05-05 21:21:57,197 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:22:01,140 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:22:01,141 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:22:01,142 [INFO] __main__: Пользователь da (hr) вошёл
+2025-05-05 21:22:01,170 [INFO] controllers: Найдено сотрудников: 1 (search='')
+2025-05-05 21:22:01,170 [INFO] ui.hr_dashboard_widget: Loaded 1 employees
+2025-05-05 21:22:10,518 [INFO] controllers: Найдено сотрудников: 1 (search='')
+2025-05-05 21:22:10,518 [INFO] reports: Экспорт в PDF: employees_report.pdf
+2025-05-05 21:22:12,916 [INFO] controllers: Найдено сотрудников: 1 (search='')
+2025-05-05 21:22:12,916 [INFO] reports: Экспорт в Excel: employees_report.xlsx
+2025-05-05 21:22:36,939 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:22:40,319 [INFO] __main__: Запуск приложения
+2025-05-05 21:22:40,567 [INFO] __main__: HR user already exists or cannot be created
+2025-05-05 21:22:48,837 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 21:22:48,837 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 21:22:48,838 [INFO] __main__: Пользователь qwer (employee) вошёл
+2025-05-05 21:22:54,213 [INFO] __main__: Завершение работы приложения
+2025-05-05 21:33:50,165 [INFO] root: Запуск приложения
+2025-05-05 21:33:55,006 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:33:55,007 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:33:55,008 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 21:33:55,033 [ERROR] ui.hr_dashboard_widget: Error loading employees: (sqlite3.OperationalError) no such column: employees.position
+[SQL: SELECT employees.id AS employees_id, employees.user_id AS employees_user_id, employees.first_name AS employees_first_name, employees.last_name AS employees_last_name, employees.position AS employees_position, employees.passport AS employees_passport, employees.birth_year AS employees_birth_year, employees.experience_years AS employees_experience_years, employees.hire_date AS employees_hire_date, employees.phone_mobile AS employees_phone_mobile, employees.phone_work AS employees_phone_work, employees.vacation_days_left AS employees_vacation_days_left 
+FROM employees ORDER BY employees.id]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-05 21:34:06,631 [INFO] root: Запуск приложения
+2025-05-05 21:34:07,560 [INFO] auth: Зарегистрирован пользователь: admin (hr)
+2025-05-05 21:34:10,688 [WARNING] auth: Аутентификация не удалась: da
+2025-05-05 21:34:26,642 [INFO] root: Запуск приложения
+2025-05-05 21:34:27,608 [INFO] auth: Зарегистрирован пользователь: da (hr)
+2025-05-05 21:34:30,468 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:34:30,468 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:34:30,469 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 21:34:30,495 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:34:30,495 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:36:28,997 [INFO] root: Запуск приложения
+2025-05-05 21:36:32,804 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:36:32,805 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:36:32,805 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 21:36:32,830 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:36:32,831 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:37:21,969 [INFO] root: Запуск приложения
+2025-05-05 21:38:52,460 [INFO] root: Запуск приложения
+2025-05-05 21:39:01,025 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:39:01,025 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:39:01,025 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 21:39:01,051 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:39:01,052 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:39:57,924 [INFO] auth: Зарегистрирован пользователь: qwer (employee)
+2025-05-05 21:39:57,927 [ERROR] controllers: Ошибка при создании сотрудника: (sqlite3.IntegrityError) NOT NULL constraint failed: employees.position
+[SQL: INSERT INTO employees (user_id, first_name, last_name, position, passport, birth_year, experience_years, hire_date, phone_mobile, phone_work, vacation_days_left) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (2, 'Dmitry', 'Samarin', None, '1234 123456', 2002, 5, '2025-05-05', '89224306406', '231709', 5)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-05 21:39:57,927 [ERROR] ui.register_widget: Ошибка БД: (sqlite3.IntegrityError) NOT NULL constraint failed: employees.position
+[SQL: INSERT INTO employees (user_id, first_name, last_name, position, passport, birth_year, experience_years, hire_date, phone_mobile, phone_work, vacation_days_left) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (2, 'Dmitry', 'Samarin', None, '1234 123456', 2002, 5, '2025-05-05', '89224306406', '231709', 5)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-05 21:44:16,142 [INFO] root: Запуск приложения
+2025-05-05 21:44:20,311 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:44:20,312 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:44:20,313 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 21:44:20,338 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:44:20,339 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:45:08,382 [ERROR] controllers: Ошибка при создании сотрудника: (sqlite3.IntegrityError) UNIQUE constraint failed: users.username
+[SQL: INSERT INTO users (username, password, role) VALUES (?, ?, ?)]
+[parameters: ('qwer', '$2b$12$SoxzL2vjydw5cimHMchkN.rXFiGiPTyjgfQ4dQvet1FsvIDOkeULG', 'employee')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-05 21:45:08,383 [ERROR] ui.register_widget: Ошибка БД: (sqlite3.IntegrityError) UNIQUE constraint failed: users.username
+[SQL: INSERT INTO users (username, password, role) VALUES (?, ?, ?)]
+[parameters: ('qwer', '$2b$12$SoxzL2vjydw5cimHMchkN.rXFiGiPTyjgfQ4dQvet1FsvIDOkeULG', 'employee')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-05 21:47:38,251 [INFO] root: Запуск приложения
+2025-05-05 21:47:39,144 [INFO] auth: Зарегистрирован пользователь: da (hr)
+2025-05-05 21:47:43,000 [INFO] auth: Аутентификация успешна: da
+2025-05-05 21:47:43,001 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 21:47:43,002 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 21:47:43,028 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-05 21:47:43,029 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:48:17,782 [INFO] auth: Зарегистрирован пользователь: qwer (employee)
+2025-05-05 21:48:17,905 [INFO] controllers: Создан сотрудник: 1 — Dmitry Samarin
+2025-05-05 21:48:19,287 [INFO] controllers: Найдено сотрудников: 1 (search='')
+2025-05-05 21:48:19,288 [INFO] ui.hr_dashboard_widget: Loaded 1 employees
+2025-05-05 21:50:08,569 [INFO] controllers: Найдено сотрудников: 0 (search='в')
+2025-05-05 21:50:08,569 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:50:09,743 [INFO] controllers: Найдено сотрудников: 1 (search='')
+2025-05-05 21:50:09,743 [INFO] ui.hr_dashboard_widget: Loaded 1 employees
+2025-05-05 21:50:11,010 [INFO] controllers: Найдено сотрудников: 1 (search='D')
+2025-05-05 21:50:11,011 [INFO] ui.hr_dashboard_widget: Loaded 1 employees
+2025-05-05 21:50:11,882 [INFO] controllers: Найдено сотрудников: 1 (search='')
+2025-05-05 21:50:11,882 [INFO] ui.hr_dashboard_widget: Loaded 1 employees
+2025-05-05 21:51:16,149 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-05 21:51:16,274 [INFO] controllers: Создан сотрудник: 2 — Arisha Myau
+2025-05-05 21:51:17,544 [INFO] controllers: Найдено сотрудников: 2 (search='')
+2025-05-05 21:51:17,545 [INFO] ui.hr_dashboard_widget: Loaded 2 employees
+2025-05-05 21:51:20,232 [INFO] controllers: Найдено сотрудников: 2 (search='A')
+2025-05-05 21:51:20,233 [INFO] ui.hr_dashboard_widget: Loaded 2 employees
+2025-05-05 21:51:21,004 [INFO] controllers: Найдено сотрудников: 2 (search='Ar')
+2025-05-05 21:51:21,004 [INFO] ui.hr_dashboard_widget: Loaded 2 employees
+2025-05-05 21:51:22,052 [INFO] controllers: Найдено сотрудников: 2 (search='Ari')
+2025-05-05 21:51:22,052 [INFO] ui.hr_dashboard_widget: Loaded 2 employees
+2025-05-05 21:51:22,777 [INFO] controllers: Найдено сотрудников: 1 (search='Aris')
+2025-05-05 21:51:22,778 [INFO] ui.hr_dashboard_widget: Loaded 1 employees
+2025-05-05 21:51:24,344 [INFO] controllers: Найдено сотрудников: 2 (search='Ari')
+2025-05-05 21:51:24,344 [INFO] ui.hr_dashboard_widget: Loaded 2 employees
+2025-05-05 21:51:28,529 [INFO] controllers: Найдено сотрудников: 0 (search='Arih')
+2025-05-05 21:51:28,529 [INFO] ui.hr_dashboard_widget: Loaded 0 employees
+2025-05-05 21:51:29,851 [INFO] controllers: Найдено сотрудников: 2 (search='Ari')
+2025-05-05 21:51:29,852 [INFO] ui.hr_dashboard_widget: Loaded 2 employees
+2025-05-05 21:51:30,675 [INFO] controllers: Найдено сотрудников: 1 (search='Aris')
+2025-05-05 21:51:30,677 [INFO] ui.hr_dashboard_widget: Loaded 1 employees
+2025-05-05 21:51:32,137 [INFO] controllers: Найдено сотрудников: 2 (search='Ari')
+2025-05-05 21:51:32,137 [INFO] ui.hr_dashboard_widget: Loaded 2 employees
+2025-05-05 21:51:32,308 [INFO] controllers: Найдено сотрудников: 2 (search='Ar')
+2025-05-05 21:51:32,308 [INFO] ui.hr_dashboard_widget: Loaded 2 employees
+2025-05-05 21:51:32,463 [INFO] controllers: Найдено сотрудников: 2 (search='A')
+2025-05-05 21:51:32,463 [INFO] ui.hr_dashboard_widget: Loaded 2 employees
+2025-05-05 21:51:32,716 [INFO] controllers: Найдено сотрудников: 2 (search='')
+2025-05-05 21:51:32,717 [INFO] ui.hr_dashboard_widget: Loaded 2 employees
+2025-05-05 21:52:47,983 [INFO] auth: Зарегистрирован пользователь: ТЕСТ (employee)
+2025-05-05 21:52:48,108 [INFO] controllers: Создан сотрудник: 3 — ТЕСТ ТЕСТ
+2025-05-05 21:52:49,614 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 21:52:49,614 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 21:52:51,399 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 21:52:51,399 [INFO] reports: Экспорт в PDF: employees_report.pdf
+2025-05-05 21:53:04,060 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 21:53:04,060 [INFO] reports: Экспорт в Excel: employees_report.xlsx
+2025-05-05 21:53:29,985 [INFO] root: Запуск приложения
+2025-05-05 21:53:40,841 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 21:53:40,841 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 21:53:40,842 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 22:00:24,134 [INFO] root: Запуск приложения
+2025-05-05 22:00:59,911 [INFO] root: Запуск приложения
+2025-05-05 22:01:02,636 [INFO] auth: Аутентификация успешна: da
+2025-05-05 22:01:02,636 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 22:01:02,637 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 22:01:02,667 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:01:02,667 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 22:01:14,661 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:01:14,661 [INFO] reports: Экспорт в PDF: C:/Users/Dmitry/Downloads/qweqwe.pdf
+2025-05-05 22:01:32,752 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:01:32,752 [INFO] reports: Экспорт в Excel: C:/Users/Dmitry/Downloads/payslip_5_05.2025.xlsx
+2025-05-05 22:02:36,358 [INFO] root: Запуск приложения
+2025-05-05 22:02:40,200 [INFO] auth: Аутентификация успешна: da
+2025-05-05 22:02:40,200 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 22:02:40,202 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 22:02:40,229 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:02:40,229 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 22:02:48,335 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:02:48,335 [INFO] reports: Экспорт в PDF: C:/Users/Dmitry/Downloads/qweqwe.pdf
+2025-05-05 22:03:40,622 [INFO] root: Запуск приложения
+2025-05-05 22:03:44,754 [INFO] auth: Аутентификация успешна: da
+2025-05-05 22:03:44,755 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 22:03:44,756 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 22:03:44,781 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:03:44,782 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 22:03:50,872 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:03:50,873 [INFO] reports: Экспорт в PDF: C:/Users/Dmitry/Downloads/qweqwe.pdf
+2025-05-05 22:06:36,361 [INFO] root: Запуск приложения
+2025-05-05 22:06:40,093 [INFO] auth: Аутентификация успешна: da
+2025-05-05 22:06:40,093 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 22:06:40,094 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 22:06:40,121 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:06:40,122 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 22:06:52,151 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:06:52,152 [INFO] reports: Экспорт в PDF: C:/Users/Dmitry/Downloads/qweqwe.pdf
+2025-05-05 22:07:03,891 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:07:03,891 [INFO] reports: Экспорт в PDF: C:/Users/Dmitry/Downloads/dwqwd.pdf
+2025-05-05 22:09:00,256 [INFO] root: Запуск приложения
+2025-05-05 22:09:03,487 [INFO] auth: Аутентификация успешна: da
+2025-05-05 22:09:03,488 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 22:09:03,488 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 22:09:03,515 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:09:03,516 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 22:09:09,194 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:10:00,614 [INFO] root: Запуск приложения
+2025-05-05 22:10:11,553 [WARNING] auth: Аутентификация не удалась: dmitry
+2025-05-05 22:10:21,108 [WARNING] auth: Аутентификация не удалась: dmitry
+2025-05-05 22:10:32,827 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 22:10:32,828 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 22:10:32,830 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-05 22:14:17,734 [INFO] root: Запуск приложения
+2025-05-05 22:14:21,704 [INFO] auth: Аутентификация успешна: da
+2025-05-05 22:14:21,704 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 22:14:21,704 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 22:14:21,736 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:14:21,736 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
