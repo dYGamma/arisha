@@ -329,3 +329,15 @@ FROM employees ORDER BY employees.id]
 2025-05-05 22:14:21,704 [INFO] root: Пользователь da вошёл (hr)
 2025-05-05 22:14:21,736 [INFO] controllers: Найдено сотрудников: 3 (search='')
 2025-05-05 22:14:21,736 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 22:16:09,488 [INFO] root: Запуск приложения
+2025-05-05 22:16:29,681 [INFO] auth: Аутентификация успешна: da
+2025-05-05 22:16:29,682 [INFO] ui.login_widget: Успешный вход: da
+2025-05-05 22:16:29,682 [INFO] root: Пользователь da вошёл (hr)
+2025-05-05 22:16:29,709 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:16:29,709 [INFO] ui.hr_dashboard_widget: Loaded 3 employees
+2025-05-05 22:16:59,113 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:17:02,776 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-05 22:17:53,973 [INFO] root: Запуск приложения
+2025-05-05 22:18:04,238 [INFO] auth: Аутентификация успешна: qwer
+2025-05-05 22:18:04,239 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-05 22:18:04,239 [INFO] root: Пользователь qwer вошёл (employee)
