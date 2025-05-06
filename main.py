@@ -1,17 +1,18 @@
-# main.py
-
 import sys
 import logging
 from PyQt5.QtWidgets import QApplication, QStackedWidget, QSystemTrayIcon, QStyle
+from PyQt5.QtCore import QLocale
 from qt_material import apply_stylesheet
 
 from database import init_db, SessionLocal
 from auth import register_user
 import ui.utils as utils
-
 from ui.login_widget import LoginWidget
 from ui.hr_dashboard_widget import HRDashboardWidget
 from ui.employee_profile_widget import EmployeeProfileWidget
+
+# Единый формат даты для всего UI
+DATE_FORMAT = "dd.MM.yyyy"
 
 def configure_logging():
     logging.basicConfig(
@@ -38,6 +39,9 @@ def main():
         pass
 
     app = QApplication(sys.argv)
+    # Устанавливаем русскую локаль по-умолчанию (даты, числа и т.п.)
+    QLocale.setDefault(QLocale(QLocale.Russian, QLocale.Russia))
+
     apply_stylesheet(app, theme="light_blue.xml")
 
     # Системный трей
@@ -47,6 +51,7 @@ def main():
 
     # Стек виджетов
     stack = QStackedWidget()
+
     def on_login(user):
         logging.info(f"Пользователь {user.username} вошёл ({user.role})")
         if user.role == "hr":

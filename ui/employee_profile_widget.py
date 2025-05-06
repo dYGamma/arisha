@@ -50,22 +50,24 @@ class EmployeeProfileWidget(QWidget):
             QMessageBox.warning(self, "Нет данных", "Профиль сотрудника не найден.")
             return
 
+        # Подготовка значений
+        date_str = emp.hire_date.strftime("%d.%m.%Y") if emp.hire_date else ""
+
         # Поля для показа
         fields = [
-            ("ID",                   emp.id),
-            ("Логин",                emp.user.username),
-            ("ФИО",                  f"{emp.first_name} {emp.last_name}"),
-            ("Паспорт",              emp.passport),
-            ("Год рождения",         emp.birth_year),
-            ("Стаж (лет)",           emp.experience_years),
-            ("Дата приёма",          emp.hire_date.strftime("%d.%m.%Y") if emp.hire_date else ""),
-            ("Телефон (моб.)",       emp.phone_mobile),
-            ("Телефон (раб.)",       emp.phone_work),
-            ("Остаток отпускных",    emp.vacation_days_left),
+            ("ID",                emp.id),
+            ("Логин",             emp.user.username),
+            ("ФИО",               f"{emp.first_name} {emp.last_name}"),
+            ("Паспорт",           emp.passport),
+            ("Год рождения",      emp.birth_year),
+            ("Стаж (лет)",        emp.experience_years),
+            ("Дата приёма",       date_str),
+            ("Телефон (моб.)",    emp.phone_mobile),
+            ("Телефон (раб.)",    emp.phone_work),
+            ("Остаток отпускных", emp.vacation_days_left),
         ]
 
         for label_text, value in fields:
-            # иконка слева, текст справа
             info_layout.addRow(
                 icon_label('id-badge', 20),
                 QLabel(f"<b>{label_text}:</b> {value}")

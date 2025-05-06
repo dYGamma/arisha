@@ -31,14 +31,14 @@ class EmployeeTableModel(QAbstractTableModel):
         elif col == 1:
             return emp.user.username
         elif col == 2:
-            # ФИО
             return f"{emp.first_name} {emp.last_name}"
         elif col == 3:
-            # Должность
             return emp.position
         elif col == 4:
-            # Дата приёма
-            return emp.hire_date.strftime("%d.%m.%Y") if emp.hire_date else ""
+            # Формат дд.мм.гггг
+            if emp.hire_date:
+                return emp.hire_date.strftime("%d.%m.%Y")
+            return ""
         elif col == 5:
             return emp.vacation_days_left
 
