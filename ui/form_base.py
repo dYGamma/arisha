@@ -1,12 +1,11 @@
 # ui/form_base.py
 
-import re
 from PyQt5.QtWidgets import (
-    QDialog, QFormLayout, QLabel, QMessageBox, QWidget, QHBoxLayout
+    QDialog, QVBoxLayout, QScrollArea, QWidget,
+    QFormLayout, QLabel, QMessageBox, QHBoxLayout
 )
 from PyQt5.QtGui import QFont, QRegularExpressionValidator
 from PyQt5.QtCore import QRegularExpression
-
 from ui.utils import icon_label
 
 class EmployeeFormDialog(QDialog):
@@ -14,7 +13,24 @@ class EmployeeFormDialog(QDialog):
         super().__init__(parent)
         self.setWindowTitle(title)
         self.setFont(QFont("Segoe UI", 10))
-        self.form = QFormLayout(self)
+        self.setSizeGripEnabled(True)  # Разрешить изменение размера
+
+        # Внешний лэйаут
+        outer = QVBoxLayout(self)
+        outer.setContentsMargins(12, 12, 12, 12)
+        outer.setSpacing(8)
+
+        # Область прокрутки
+        scroll = QScrollArea(self)
+        scroll.setWidgetResizable(True)
+        outer.addWidget(scroll)
+
+        # Контейнер внутри прокрутки
+        container = QWidget()
+        scroll.setWidget(container)
+
+        # Форма
+        self.form = QFormLayout(container)
         self.form.setContentsMargins(24, 24, 24, 24)
         self.form.setVerticalSpacing(12)
 
@@ -31,19 +47,25 @@ class EmployeeFormDialog(QDialog):
         self.form.addRow(container, widget)
 
     def set_fixed_heights(self, widgets: list, height: int = 32):
-        """Установить фиксированную высоту группе виджетов."""
+        """
+        Задать фиксированную высоту группе виджетов.
+        """
         for w in widgets:
             w.setFixedHeight(height)
 
     def apply_phone_validator(self, widgets: list):
-        """Применить единый регэксп-валидатор для телефонов."""
+        """
+        Применить валидатор телефонного номера (+?digits 5-15).
+        """
         pattern = QRegularExpression(r'^\+?\d{5,15}$')
         val = QRegularExpressionValidator(pattern, self)
         for w in widgets:
             w.setValidator(val)
 
     def apply_regex_validator(self, widgets: list, regex: str):
-        """Применить QRegularExpressionValidator с заданным шаблоном."""
+        """
+        Применить QRegularExpressionValidator с заданным шаблоном.
+        """
         pattern = QRegularExpression(regex)
         val = QRegularExpressionValidator(pattern, self)
         for w in widgets:

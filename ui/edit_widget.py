@@ -17,9 +17,12 @@ class EditWidget(EmployeeFormDialog):
     def __init__(self, emp_id, parent=None):
         super().__init__("Редактировать сотрудника", parent)
         self.emp_id = emp_id
-        self.setFixedSize(550, 650)
 
-        # Загрузка данных
+        # Разрешаем изменять размер, задаём стартовый
+        self.setSizeGripEnabled(True)
+        self.resize(500, 700)
+
+        # Загрузка данных из БД
         try:
             with SessionLocal() as db:
                 emp = get_employee(db, emp_id)
@@ -98,10 +101,10 @@ class EditWidget(EmployeeFormDialog):
         for label, widget, icon in fields:
             self.add_form_row(label, widget, icon)
 
-        # Кнопка Сохранить
+        # Кнопка «Сохранить»
         btn = QPushButton("Сохранить")
         btn.setCursor(Qt.PointingHandCursor)
-        btn.setFixedHeight(36)
+        btn.setFixedHeight(32)
         btn.clicked.connect(self._save)
         self.form.addRow(QLabel(), btn)
 

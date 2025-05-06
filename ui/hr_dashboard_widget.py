@@ -3,7 +3,7 @@
 import logging
 from PyQt5.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLineEdit, QPushButton,
-    QMessageBox, QTableView, QLabel, QFrame, QFileDialog
+    QMessageBox, QTableView, QFrame, QFileDialog
 )
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
@@ -17,9 +17,11 @@ from ui.models_table import EmployeeTableModel
 logger = logging.getLogger(__name__)
 
 class HRDashboardWidget(QWidget):
-    def __init__(self, user):
+    def __init__(self, user, on_logout):
         super().__init__()
         self.user = user
+        self.on_logout = on_logout
+
         self.setWindowTitle("HR: Панель управления")
         self.setFont(QFont("Segoe UI", 10))
         self.setMinimumSize(900, 600)
@@ -63,6 +65,14 @@ class HRDashboardWidget(QWidget):
         btn_xlsx.setFixedHeight(28)
         btn_xlsx.clicked.connect(lambda: self.export('xlsx'))
         tf_layout.addWidget(btn_xlsx)
+
+        # tf_layout.addStretch()
+
+        btn_logout = QPushButton(icon('sign-out-alt'), "")
+        btn_logout.setToolTip("Сменить аккаунт")
+        btn_logout.setFixedSize(32, 32)
+        btn_logout.clicked.connect(self.on_logout)
+        tf_layout.addWidget(btn_logout)
 
         main_layout.addWidget(top_frame)
 

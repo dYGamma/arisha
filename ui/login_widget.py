@@ -2,7 +2,7 @@
 
 import logging
 from PyQt5.QtWidgets import (
-    QDialog, QFormLayout, QLineEdit, QPushButton, QMessageBox, QLabel
+    QWidget, QFormLayout, QLineEdit, QPushButton, QMessageBox, QLabel
 )
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
@@ -11,13 +11,13 @@ from ui.utils import icon, icon_label
 
 logger = logging.getLogger(__name__)
 
-class LoginWidget(QDialog):
+class LoginWidget(QWidget):
     def __init__(self, on_success, parent=None):
         super().__init__(parent)
         self.on_success = on_success
 
         # Оформление окна
-        self.setWindowTitle("Вход в HR-систему")
+        self.setWindowTitle("Вход в HR‑систему")
         self.setFixedSize(320, 200)
         apply_stylesheet(self, theme="light_blue.xml")
         self.setFont(QFont("Segoe UI", 10))
@@ -73,5 +73,8 @@ class LoginWidget(QDialog):
             return
 
         logger.info(f"Успешный вход: {username}")
-        self.accept()
+        # Очищаем поля для следующего раза
+        self.le_user.clear()
+        self.le_pwd.clear()
+        # Вызываем коллбэк успешного входа
         self.on_success(user)

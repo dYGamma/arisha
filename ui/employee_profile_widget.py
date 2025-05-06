@@ -2,21 +2,25 @@
 
 import logging
 from PyQt5.QtWidgets import (
-    QWidget, QFormLayout, QLabel, QVBoxLayout, QGroupBox, QMessageBox
+    QWidget, QFormLayout, QLabel, QVBoxLayout, QGroupBox,
+    QMessageBox, QPushButton
 )
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
 from sqlalchemy.exc import SQLAlchemyError
+
 from database import SessionLocal
 from controllers import get_employee_by_user
-from ui.utils import icon_label
+from ui.utils import icon, icon_label
 
 logger = logging.getLogger(__name__)
 
 class EmployeeProfileWidget(QWidget):
-    def __init__(self, user):
+    def __init__(self, user, on_logout):
         super().__init__()
         self.user = user
+        self.on_logout = on_logout
+
         self.setWindowTitle("Моя карточка")
         self.setMinimumSize(360, 400)
         self.setFont(QFont("Segoe UI", 10))
@@ -72,3 +76,9 @@ class EmployeeProfileWidget(QWidget):
                 icon_label('id-badge', 20),
                 QLabel(f"<b>{label_text}:</b> {value}")
             )
+
+        # Кнопка смены аккаунта
+        btn_logout = QPushButton(icon('sign-out-alt'), "")
+        btn_logout.setFixedWidth(140)
+        btn_logout.clicked.connect(self.on_logout)
+        main_layout.addWidget(btn_logout, alignment=Qt.AlignRight)

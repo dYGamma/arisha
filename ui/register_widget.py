@@ -17,7 +17,9 @@ logger = logging.getLogger(__name__)
 class RegisterWidget(EmployeeFormDialog):
     def __init__(self, parent=None):
         super().__init__("Регистрация сотрудника", parent)
-        self.setFixedSize(600, 870)
+        # Разрешаем изменять размер и задаём стартовый
+        self.setSizeGripEnabled(True)
+        self.resize(500, 700)
 
         # Поля ввода
         self.username   = QLineEdit()
@@ -25,7 +27,7 @@ class RegisterWidget(EmployeeFormDialog):
 
         self.password   = QLineEdit()
         self.password.setEchoMode(QLineEdit.Password)
-        self.password.setPlaceholderText("Пароль, ≥8 символов, буквы и цифры")
+        self.password.setPlaceholderText("Пароль — ≥8 символов, буквы и цифры")
 
         self.first_name = QLineEdit()
         self.first_name.setPlaceholderText("Имя сотрудника")
@@ -47,28 +49,28 @@ class RegisterWidget(EmployeeFormDialog):
         self.experience.setRange(0, 60)
         self.experience.setSuffix(" лет")
 
-        self.hire_date  = QDateEdit(calendarPopup=True)
+        self.hire_date = QDateEdit(calendarPopup=True)
         self.hire_date.setDate(QDate.currentDate())
         self.hire_date.setDisplayFormat(DATE_FORMAT)
 
-        self.mobile     = QLineEdit()
+        self.mobile = QLineEdit()
         self.mobile.setPlaceholderText("Введите +7XXXXXXXXXX")
 
-        self.work       = QLineEdit()
+        self.work = QLineEdit()
         self.work.setPlaceholderText("Введите +7XXXXXXXXXX")
 
-        self.vacation   = QSpinBox()
+        self.vacation = QSpinBox()
         self.vacation.setRange(0, 365)
         self.vacation.setSuffix(" дней")
 
-        # Применяем утилиты базового класса
+        # Применяем утилиты из базового класса
         self.set_fixed_heights([
             self.username, self.password, self.first_name, self.last_name,
-            self.position, self.passport, self.mobile, self.work,
-            self.birth_year, self.experience, self.vacation, self.hire_date
+            self.position, self.passport, self.birth_year, self.experience,
+            self.hire_date, self.mobile, self.work, self.vacation
         ])
         self.apply_phone_validator([self.mobile, self.work])
-        # Валидатор паспорта: 4 цифры, опционально пробел, 6 цифр
+        # Паспорт: 4 цифры, необязательный пробел, 6 цифр
         self.apply_regex_validator([self.passport], r'^\d{4}\s?\d{6}$')
 
         # Сборка формы
@@ -115,7 +117,7 @@ class RegisterWidget(EmployeeFormDialog):
             )
             return
 
-        # Сбор данных
+        # Формирование данных
         data = dict(
             first_name=self.first_name.text().strip(),
             last_name=self.last_name.text().strip(),
@@ -129,7 +131,7 @@ class RegisterWidget(EmployeeFormDialog):
             vacation_days_left=self.vacation.value()
         )
 
-        # Создание в БД
+        # Сохранение в БД
         try:
             with SessionLocal() as db:
                 create_employee(
