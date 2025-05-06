@@ -1,6 +1,9 @@
 # ui/hr_dashboard_widget.py
 
 import logging
+import os
+import shutil
+import subprocess
 from PyQt5.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLineEdit, QPushButton,
     QMessageBox, QTableView, QFrame, QFileDialog
@@ -10,9 +13,15 @@ from PyQt5.QtCore import Qt
 
 from database import SessionLocal
 from services.employee_service import EmployeeService
+from controllers import get_employee
 from reports import export_employees_pdf, export_employees_excel
 from ui.utils import icon, icon_label, notify_qt
 from ui.models_table import EmployeeTableModel
+from ui.employee_profile_widget import (
+    EmployeeProfileWidget,
+    PROFILE_PHOTOS_DIR,
+    EMPLOYEE_DOCS_DIR
+)
 
 logger = logging.getLogger(__name__)
 
@@ -21,6 +30,7 @@ class HRDashboardWidget(QWidget):
         super().__init__()
         self.user = user
         self.on_logout = on_logout
+        self.profile_window = None
 
         self.setWindowTitle("HR: Панель управления")
         self.setFont(QFont("Segoe UI", 10))
@@ -66,8 +76,6 @@ class HRDashboardWidget(QWidget):
         btn_xlsx.clicked.connect(lambda: self.export('xlsx'))
         tf_layout.addWidget(btn_xlsx)
 
-        # tf_layout.addStretch()
-
         btn_logout = QPushButton(icon('sign-out-alt'), "")
         btn_logout.setToolTip("Сменить аккаунт")
         btn_logout.setFixedSize(32, 32)
@@ -82,6 +90,7 @@ class HRDashboardWidget(QWidget):
         self.table.setSelectionBehavior(QTableView.SelectRows)
         self.table.setEditTriggers(QTableView.NoEditTriggers)
         self.table.verticalHeader().setVisible(False)
+        self.table.doubleClicked.connect(self.view_emp)
 
         self.model = EmployeeTableModel([])
         self.table.setModel(self.model)
@@ -100,9 +109,16 @@ class HRDashboardWidget(QWidget):
         """)
         main_layout.addWidget(self.table)
 
-        # Кнопки редактирования/удаления
+        # Кнопки просмотра/редактирования/удаления
         btn_layout = QHBoxLayout()
         btn_layout.setSpacing(12)
+
+        btn_view = QPushButton(icon('eye'), "")
+        btn_view.setToolTip("Просмотр профиля")
+        btn_view.setFixedSize(32, 32)
+        btn_view.clicked.connect(self.view_emp)
+        btn_layout.addWidget(btn_view)
+
         btn_edit = QPushButton(icon('edit'), "")
         btn_edit.setToolTip("Редактировать")
         btn_edit.setFixedSize(32, 32)
@@ -117,7 +133,7 @@ class HRDashboardWidget(QWidget):
 
         main_layout.addLayout(btn_layout)
 
-        # Загрузка
+        # Загрузка данных
         self.refresh()
 
     def refresh(self):
@@ -135,6 +151,25 @@ class HRDashboardWidget(QWidget):
     def get_selected_id(self):
         idx = self.table.currentIndex()
         return None if not idx.isValid() else self.model._employees[idx.row()].id
+
+    def view_emp(self, index=None):
+        emp_id = self.get_selected_id()
+        if not emp_id:
+            return
+        try:
+            with SessionLocal() as db:
+                emp = get_employee(db, emp_id)
+            if self.profile_window:
+                self.profile_window.close()
+            self.profile_window = EmployeeProfileWidget(
+                emp.user,
+                on_logout=self.on_logout,
+                show_logout=False
+            )
+            self.profile_window.show()
+        except Exception as e:
+            logger.error(f"Error opening profile: {e}")
+            QMessageBox.critical(self, "Ошибка", f"Не удалось открыть профиль:\n{e}")
 
     def add_emp(self):
         from ui.register_widget import RegisterWidget
@@ -155,10 +190,37 @@ class HRDashboardWidget(QWidget):
         emp_id = self.get_selected_id()
         if not emp_id:
             return
+        # Подтверждение удаления
+        reply = QMessageBox.question(
+            self, "Подтверждение удаления",
+            f"Удалить сотрудника {emp_id}?",
+            QMessageBox.Yes | QMessageBox.No
+        )
+        if reply != QMessageBox.Yes:
+            return
+
         try:
+            # Удаляем из БД
             with SessionLocal() as db:
                 service = EmployeeService(db)
                 service.delete(emp_id)
+
+            # Удаляем аватар
+            photo_path = os.path.join(PROFILE_PHOTOS_DIR, f"{emp_id}.jpg")
+            if os.path.exists(photo_path):
+                try:
+                    os.remove(photo_path)
+                except Exception as e:
+                    logger.warning(f"Не удалось удалить аватар {photo_path}: {e}")
+
+            # Удаляем папку с документами
+            docs_dir = os.path.join(EMPLOYEE_DOCS_DIR, str(emp_id))
+            if os.path.isdir(docs_dir):
+                try:
+                    shutil.rmtree(docs_dir)
+                except Exception as e:
+                    logger.warning(f"Не удалось удалить папку документов {docs_dir}: {e}")
+
             notify_qt("HR", f"Сотрудник {emp_id} удалён")
             self.refresh()
         except Exception as e:
