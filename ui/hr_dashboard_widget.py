@@ -6,7 +6,7 @@ import shutil
 import subprocess
 from PyQt5.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLineEdit, QPushButton,
-    QMessageBox, QTableView, QFrame, QFileDialog
+    QMessageBox, QTableView, QFrame, QFileDialog, QHeaderView
 )
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
@@ -92,10 +92,20 @@ class HRDashboardWidget(QWidget):
         self.table.verticalHeader().setVisible(False)
         self.table.doubleClicked.connect(self.view_emp)
 
+        # Модель и настройки так, чтобы текст не урезался
         self.model = EmployeeTableModel([])
         self.table.setModel(self.model)
-        self.table.horizontalHeader().setStretchLastSection(True)
 
+        # Включаем перенос строк и отключаем обрезку текста
+        self.table.setWordWrap(True)
+        self.table.setTextElideMode(Qt.ElideNone)
+
+        # Автоматически подгоняем ширину столбцов под содержимое
+        header = self.table.horizontalHeader()
+        header.setSectionResizeMode(QHeaderView.ResizeToContents)
+        header.setStretchLastSection(True)
+
+        # Стилизация таблицы
         self.table.setStyleSheet("""
             QHeaderView::section {
                 background: #f0f0f0;

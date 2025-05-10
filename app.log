@@ -980,3 +980,457 @@ WHERE employees.user_id = ?
 2025-05-07 00:35:46,892 [INFO] ui.login_widget: Успешный вход: qwer
 2025-05-07 00:35:46,892 [INFO] root: Пользователь qwer вошёл (employee)
 2025-05-07 00:35:54,370 [INFO] root: Выход из аккаунта
+2025-05-07 19:12:17,416 [INFO] root: Запуск приложения
+2025-05-07 19:12:33,278 [INFO] auth: Аутентификация успешна: da
+2025-05-07 19:12:33,278 [INFO] ui.login_widget: Успешный вход: da
+2025-05-07 19:12:33,279 [INFO] root: Пользователь da вошёл (hr)
+2025-05-07 19:12:33,538 [INFO] controllers: Найдено сотрудников: 2 (search='')
+2025-05-07 19:12:33,539 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='')
+2025-05-07 19:20:02,974 [INFO] root: Запуск приложения
+2025-05-07 19:20:11,370 [INFO] auth: Аутентификация успешна: da
+2025-05-07 19:20:11,371 [INFO] ui.login_widget: Успешный вход: da
+2025-05-07 19:20:11,371 [INFO] root: Пользователь da вошёл (hr)
+2025-05-07 19:20:11,401 [INFO] controllers: Найдено сотрудников: 2 (search='')
+2025-05-07 19:20:11,402 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='')
+2025-05-07 23:19:18,497 [INFO] root: Запуск приложения
+2025-05-07 23:19:25,903 [INFO] auth: Аутентификация успешна: da
+2025-05-07 23:19:25,903 [INFO] ui.login_widget: Успешный вход: da
+2025-05-07 23:19:25,903 [INFO] root: Пользователь da вошёл (hr)
+2025-05-07 23:19:25,940 [INFO] controllers: Найдено сотрудников: 2 (search='')
+2025-05-07 23:19:25,940 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='')
+2025-05-07 23:19:31,521 [INFO] controllers: Удалён сотрудник: 2
+2025-05-07 23:19:31,533 [WARNING] ui.hr_dashboard_widget: Не удалось удалить аватар profile_photos/2.jpg: [WinError 5] Отказано в доступе: 'profile_photos/2.jpg'
+2025-05-07 23:19:31,534 [WARNING] ui.hr_dashboard_widget: Не удалось удалить папку документов employee_docs/2: [WinError 5] Отказано в доступе: 'employee_docs/2\\0014dedf74034a9ce42932bce7296583.jpg'
+2025-05-07 23:19:31,541 [INFO] controllers: Найдено сотрудников: 1 (search='')
+2025-05-07 23:19:31,542 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='')
+2025-05-07 23:19:34,707 [INFO] controllers: Удалён сотрудник: 1
+2025-05-07 23:19:34,711 [WARNING] ui.hr_dashboard_widget: Не удалось удалить аватар profile_photos/1.jpg: [WinError 5] Отказано в доступе: 'profile_photos/1.jpg'
+2025-05-07 23:19:34,712 [WARNING] ui.hr_dashboard_widget: Не удалось удалить папку документов employee_docs/1: [WinError 5] Отказано в доступе: 'employee_docs/1\\test.pdf'
+2025-05-07 23:19:34,717 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-07 23:19:34,720 [INFO] ui.hr_dashboard_widget: Loaded 0 employees (filter='')
+2025-05-08 00:03:39,761 [INFO] root: Запуск приложения
+2025-05-08 00:03:58,858 [INFO] root: Запуск приложения
+2025-05-08 00:04:04,629 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:04:04,629 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:04:04,629 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:04:04,657 [INFO] controllers: Найдено сотрудников: 0 (search='')
+2025-05-08 00:04:04,658 [INFO] ui.hr_dashboard_widget: Loaded 0 employees (filter='')
+2025-05-08 00:12:35,416 [INFO] auth: Зарегистрирован пользователь: ivan.petrov (employee)
+2025-05-08 00:12:35,543 [INFO] controllers: Создан сотрудник: 1 — Иван Петров
+2025-05-08 00:12:37,007 [INFO] controllers: Найдено сотрудников: 1 (search='')
+2025-05-08 00:12:37,007 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='')
+2025-05-08 00:13:49,362 [INFO] auth: Зарегистрирован пользователь: olga.smirnova (employee)
+2025-05-08 00:13:49,459 [INFO] controllers: Создан сотрудник: 2 — Ольга Смирнова
+2025-05-08 00:13:50,486 [INFO] controllers: Найдено сотрудников: 2 (search='')
+2025-05-08 00:13:50,487 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='')
+2025-05-08 00:15:06,975 [INFO] auth: Зарегистрирован пользователь: maksim.ivanov (employee)
+2025-05-08 00:15:07,077 [INFO] controllers: Создан сотрудник: 3 — Максим Иванов
+2025-05-08 00:15:07,929 [INFO] controllers: Найдено сотрудников: 3 (search='')
+2025-05-08 00:15:07,930 [INFO] ui.hr_dashboard_widget: Loaded 3 employees (filter='')
+2025-05-08 00:16:45,520 [INFO] auth: Зарегистрирован пользователь: ekaterina.koroleva (employee)
+2025-05-08 00:16:45,644 [INFO] controllers: Создан сотрудник: 4 — Екатерина Королева
+2025-05-08 00:16:46,539 [INFO] controllers: Найдено сотрудников: 4 (search='')
+2025-05-08 00:16:46,540 [INFO] ui.hr_dashboard_widget: Loaded 4 employees (filter='')
+2025-05-08 00:17:53,433 [INFO] auth: Зарегистрирован пользователь: sergey.volkov (employee)
+2025-05-08 00:17:53,538 [INFO] controllers: Создан сотрудник: 5 — Сергей Волков
+2025-05-08 00:17:54,607 [INFO] controllers: Найдено сотрудников: 5 (search='')
+2025-05-08 00:17:54,608 [INFO] ui.hr_dashboard_widget: Loaded 5 employees (filter='')
+2025-05-08 00:18:01,090 [INFO] controllers: Обновлён сотрудник: 2
+2025-05-08 00:18:01,888 [INFO] controllers: Найдено сотрудников: 5 (search='')
+2025-05-08 00:18:01,889 [INFO] ui.hr_dashboard_widget: Loaded 5 employees (filter='')
+2025-05-08 00:18:23,078 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:18:23,985 [INFO] controllers: Найдено сотрудников: 5 (search='')
+2025-05-08 00:18:23,986 [INFO] ui.hr_dashboard_widget: Loaded 5 employees (filter='')
+2025-05-08 00:21:12,713 [INFO] auth: Зарегистрирован пользователь: qwer (employee)
+2025-05-08 00:21:12,833 [INFO] controllers: Создан сотрудник: 6 — Иван Иванов
+2025-05-08 00:21:13,872 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:21:13,873 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:21:31,652 [INFO] root: Запуск приложения
+2025-05-08 00:22:01,591 [WARNING] auth: Аутентификация не удалась: fewef
+2025-05-08 00:22:08,882 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:22:08,882 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:22:08,883 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:22:08,914 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:22:08,914 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:22:51,727 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-08 00:22:51,830 [INFO] controllers: Создан сотрудник: 7 — test test
+2025-05-08 00:22:53,413 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:22:53,414 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:22:55,118 [INFO] root: Выход из аккаунта
+2025-05-08 00:23:02,034 [INFO] auth: Аутентификация успешна: rewq
+2025-05-08 00:23:02,035 [INFO] ui.login_widget: Успешный вход: rewq
+2025-05-08 00:23:02,035 [INFO] root: Пользователь rewq вошёл (employee)
+2025-05-08 00:23:27,685 [INFO] root: Выход из аккаунта
+2025-05-08 00:23:30,533 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:23:30,534 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:23:30,534 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:23:30,547 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:23:30,548 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:23:36,259 [INFO] controllers: Удалён сотрудник: 7
+2025-05-08 00:23:36,268 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:23:36,269 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:24:26,754 [INFO] root: Запуск приложения
+2025-05-08 00:24:30,999 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:24:31,000 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:24:31,000 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:24:31,031 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:24:31,032 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:26:09,284 [INFO] root: Запуск приложения
+2025-05-08 00:26:13,643 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:26:13,644 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:26:13,644 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:26:13,678 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:26:13,678 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:26:25,597 [INFO] root: Запуск приложения
+2025-05-08 00:26:35,040 [WARNING] auth: Аутентификация не удалась: fwkjefn
+2025-05-08 00:26:39,753 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:26:39,754 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:26:39,754 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:26:39,786 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:26:39,786 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:26:53,998 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:26:55,022 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:26:55,022 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:27:32,601 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-08 00:27:32,707 [INFO] controllers: Создан сотрудник: 7 — test test
+2025-05-08 00:27:33,775 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:27:33,775 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:27:36,766 [INFO] root: Выход из аккаунта
+2025-05-08 00:27:43,877 [WARNING] auth: Аутентификация не удалась: rewq
+2025-05-08 00:27:53,926 [INFO] auth: Аутентификация успешна: rewq
+2025-05-08 00:27:53,927 [INFO] ui.login_widget: Успешный вход: rewq
+2025-05-08 00:27:53,927 [INFO] root: Пользователь rewq вошёл (employee)
+2025-05-08 00:27:56,706 [INFO] root: Выход из аккаунта
+2025-05-08 00:27:58,938 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:27:58,938 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:27:58,939 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:27:58,951 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:27:58,952 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:28:02,163 [INFO] controllers: Удалён сотрудник: 7
+2025-05-08 00:28:02,173 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:28:02,173 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:28:14,408 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:28:15,280 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:28:15,280 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:28:25,702 [INFO] root: Запуск приложения
+2025-05-08 00:28:34,959 [WARNING] auth: Аутентификация не удалась: вйцв
+2025-05-08 00:28:39,279 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:28:39,279 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:28:39,279 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:28:39,313 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:28:39,313 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:28:58,131 [INFO] root: Запуск приложения
+2025-05-08 00:29:04,761 [WARNING] auth: Аутентификация не удалась: wdqqwd
+2025-05-08 00:29:09,666 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:29:09,666 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:29:09,666 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:29:09,698 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:29:09,698 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:29:21,669 [INFO] root: Запуск приложения
+2025-05-08 00:29:30,027 [WARNING] auth: Аутентификация не удалась: dasedfwef
+2025-05-08 00:29:35,269 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:29:35,269 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:29:35,269 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:29:35,301 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:29:35,301 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:29:48,280 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:29:49,380 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:29:49,381 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:30:26,067 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-08 00:30:26,187 [INFO] controllers: Создан сотрудник: 7 — test test
+2025-05-08 00:30:27,173 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:30:27,173 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:30:31,270 [INFO] root: Выход из аккаунта
+2025-05-08 00:30:38,547 [INFO] auth: Аутентификация успешна: rewq
+2025-05-08 00:30:38,547 [INFO] ui.login_widget: Успешный вход: rewq
+2025-05-08 00:30:38,548 [INFO] root: Пользователь rewq вошёл (employee)
+2025-05-08 00:31:07,870 [INFO] root: Выход из аккаунта
+2025-05-08 00:31:10,445 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:31:10,445 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:31:10,445 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:31:10,461 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:31:10,462 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:31:35,381 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:31:55,811 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:32:09,859 [INFO] controllers: Найдено сотрудников: 4 (search='i')
+2025-05-08 00:32:09,859 [INFO] ui.hr_dashboard_widget: Loaded 4 employees (filter='i')
+2025-05-08 00:32:10,002 [INFO] controllers: Найдено сотрудников: 2 (search='iv')
+2025-05-08 00:32:10,002 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='iv')
+2025-05-08 00:32:10,724 [INFO] controllers: Найдено сотрудников: 2 (search='iva')
+2025-05-08 00:32:10,724 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='iva')
+2025-05-08 00:32:11,332 [INFO] controllers: Найдено сотрудников: 2 (search='ivan')
+2025-05-08 00:32:11,332 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='ivan')
+2025-05-08 00:32:13,085 [INFO] controllers: Найдено сотрудников: 2 (search='q')
+2025-05-08 00:32:13,086 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='q')
+2025-05-08 00:32:13,185 [INFO] controllers: Найдено сотрудников: 1 (search='qw')
+2025-05-08 00:32:13,185 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='qw')
+2025-05-08 00:32:13,320 [INFO] controllers: Найдено сотрудников: 1 (search='qwe')
+2025-05-08 00:32:13,321 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='qwe')
+2025-05-08 00:32:13,563 [INFO] controllers: Найдено сотрудников: 1 (search='qwer')
+2025-05-08 00:32:13,563 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='qwer')
+2025-05-08 00:32:14,846 [INFO] controllers: Найдено сотрудников: 6 (search='r')
+2025-05-08 00:32:14,846 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='r')
+2025-05-08 00:32:14,970 [INFO] controllers: Найдено сотрудников: 1 (search='re')
+2025-05-08 00:32:14,970 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='re')
+2025-05-08 00:32:15,150 [INFO] controllers: Найдено сотрудников: 1 (search='rew')
+2025-05-08 00:32:15,150 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='rew')
+2025-05-08 00:32:15,415 [INFO] controllers: Найдено сотрудников: 1 (search='rewq')
+2025-05-08 00:32:15,415 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='rewq')
+2025-05-08 00:32:16,255 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:32:16,255 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:32:17,475 [INFO] controllers: Найдено сотрудников: 2 (search='m')
+2025-05-08 00:32:17,475 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='m')
+2025-05-08 00:32:17,615 [INFO] controllers: Найдено сотрудников: 1 (search='ma')
+2025-05-08 00:32:17,616 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='ma')
+2025-05-08 00:32:17,735 [INFO] controllers: Найдено сотрудников: 1 (search='mak')
+2025-05-08 00:32:17,736 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='mak')
+2025-05-08 00:32:17,851 [INFO] controllers: Найдено сотрудников: 1 (search='maks')
+2025-05-08 00:32:17,852 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='maks')
+2025-05-08 00:32:18,625 [INFO] controllers: Найдено сотрудников: 0 (search='maksa')
+2025-05-08 00:32:18,625 [INFO] ui.hr_dashboard_widget: Loaded 0 employees (filter='maksa')
+2025-05-08 00:32:19,189 [INFO] controllers: Найдено сотрудников: 1 (search='maks')
+2025-05-08 00:32:19,189 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='maks')
+2025-05-08 00:32:19,758 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:32:19,758 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:32:43,517 [INFO] root: Выход из аккаунта
+2025-05-08 00:32:50,788 [INFO] auth: Аутентификация успешна: qwer
+2025-05-08 00:32:50,789 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-08 00:32:50,789 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-08 00:33:07,376 [INFO] root: Выход из аккаунта
+2025-05-08 00:33:09,590 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:33:09,590 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:33:09,590 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:33:09,604 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:33:09,605 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:47:54,751 [INFO] controllers: Удалён сотрудник: 7
+2025-05-08 00:47:54,763 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:47:54,763 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:48:19,889 [INFO] root: Запуск приложения
+2025-05-08 00:48:34,586 [WARNING] auth: Аутентификация не удалась: вьцула
+2025-05-08 00:48:39,104 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:48:39,105 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:48:39,106 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:48:39,139 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:48:39,139 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:48:54,111 [INFO] root: Запуск приложения
+2025-05-08 00:48:59,896 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:48:59,897 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:48:59,897 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:48:59,930 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:48:59,931 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:49:13,230 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:49:14,082 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:49:14,082 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:49:15,187 [INFO] root: Выход из аккаунта
+2025-05-08 00:49:22,727 [WARNING] auth: Аутентификация не удалась: dwdqwd
+2025-05-08 00:49:26,672 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:49:26,673 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:49:26,673 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:49:26,686 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:49:26,687 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:49:36,022 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:49:37,452 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:49:37,452 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:50:12,668 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-08 00:50:12,807 [INFO] controllers: Создан сотрудник: 7 — test test
+2025-05-08 00:50:13,853 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:50:13,855 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:50:24,065 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:50:49,894 [INFO] controllers: Удалён сотрудник: 7
+2025-05-08 00:50:49,904 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:50:49,905 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:51:09,262 [INFO] root: Выход из аккаунта
+2025-05-08 00:51:16,433 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:51:16,433 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:51:16,434 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:51:16,450 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:51:16,451 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:51:23,993 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:51:24,977 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:51:24,977 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:51:25,864 [INFO] root: Выход из аккаунта
+2025-05-08 00:51:34,577 [WARNING] auth: Аутентификация не удалась: dwdq
+2025-05-08 00:51:38,102 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:51:38,102 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:51:38,102 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:51:38,117 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:51:38,118 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:51:49,277 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:51:50,180 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:51:50,181 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:52:27,340 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-08 00:52:27,445 [INFO] controllers: Создан сотрудник: 7 — test test
+2025-05-08 00:52:28,362 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:52:28,363 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:52:35,044 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:52:48,252 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:53:31,106 [INFO] controllers: Удалён сотрудник: 7
+2025-05-08 00:53:31,115 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:53:31,115 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:53:54,530 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:53:55,302 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:53:55,303 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:53:56,397 [INFO] root: Выход из аккаунта
+2025-05-08 00:54:11,247 [WARNING] auth: Аутентификация не удалась: dqwdqwd
+2025-05-08 00:54:16,903 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:54:16,904 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:54:16,904 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:54:16,917 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:54:16,918 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:54:27,310 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:54:28,209 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:54:28,209 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:55:00,819 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-08 00:55:00,924 [INFO] controllers: Создан сотрудник: 7 — test test
+2025-05-08 00:55:02,308 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:55:02,308 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:55:10,794 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:55:24,573 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:55:59,321 [INFO] root: Выход из аккаунта
+2025-05-08 00:56:07,729 [INFO] auth: Аутентификация успешна: qwer
+2025-05-08 00:56:07,729 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-08 00:56:07,729 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-08 00:56:35,714 [INFO] root: Запуск приложения
+2025-05-08 00:56:40,432 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:56:40,433 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:56:40,434 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:56:40,466 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:56:40,466 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:56:44,555 [INFO] controllers: Удалён сотрудник: 7
+2025-05-08 00:56:44,567 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:56:44,567 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:56:49,797 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:56:50,426 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:56:50,427 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:57:00,837 [INFO] root: Запуск приложения
+2025-05-08 00:57:08,199 [WARNING] auth: Аутентификация не удалась: dqwdqwd
+2025-05-08 00:57:13,315 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:57:13,316 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:57:13,316 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:57:13,348 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:57:13,348 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:57:27,038 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:57:27,789 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:57:27,790 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:58:03,953 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-08 00:58:04,059 [INFO] controllers: Создан сотрудник: 7 — test test
+2025-05-08 00:58:05,076 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:58:05,076 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:58:16,855 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:58:34,133 [INFO] controllers: Удалён сотрудник: 7
+2025-05-08 00:58:34,142 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:58:34,143 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:58:37,967 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:58:38,658 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:58:38,659 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:58:39,737 [INFO] root: Выход из аккаунта
+2025-05-08 00:58:53,996 [WARNING] auth: Аутентификация не удалась: dqwd
+2025-05-08 00:58:58,440 [INFO] auth: Аутентификация успешна: da
+2025-05-08 00:58:58,440 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 00:58:58,440 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 00:58:58,454 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:58:58,455 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:59:09,356 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 00:59:10,729 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 00:59:10,730 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 00:59:45,144 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-08 00:59:45,258 [INFO] controllers: Создан сотрудник: 7 — test test
+2025-05-08 00:59:46,708 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 00:59:46,708 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 00:59:54,845 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:00:07,357 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:00:07,361 [ERROR] ui.hr_dashboard_widget: Error exporting (xlsx): [Errno 13] Permission denied: 'D:/GIT/arisha/public/1.xlsx'
+2025-05-08 01:00:21,049 [INFO] controllers: Удалён сотрудник: 7
+2025-05-08 01:00:21,058 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 01:00:21,058 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 01:00:27,863 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 01:00:28,732 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 01:00:28,733 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 01:00:29,357 [INFO] root: Выход из аккаунта
+2025-05-08 01:00:40,326 [WARNING] auth: Аутентификация не удалась: dwdqwd
+2025-05-08 01:00:44,827 [INFO] auth: Аутентификация успешна: da
+2025-05-08 01:00:44,827 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 01:00:44,827 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 01:00:44,841 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 01:00:44,841 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 01:00:57,491 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 01:00:58,851 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 01:00:58,851 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 01:01:30,957 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-08 01:01:31,085 [INFO] controllers: Создан сотрудник: 7 — test test
+2025-05-08 01:01:31,954 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:01:31,955 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 01:01:40,329 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:01:53,569 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:03:30,756 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 01:03:31,517 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:03:31,517 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 01:03:35,182 [INFO] controllers: Удалён сотрудник: 7
+2025-05-08 01:03:35,192 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 01:03:35,192 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 01:03:36,739 [INFO] root: Выход из аккаунта
+2025-05-08 01:03:43,044 [WARNING] auth: Аутентификация не удалась: dwqqd
+2025-05-08 01:03:47,928 [INFO] auth: Аутентификация успешна: da
+2025-05-08 01:03:47,929 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 01:03:47,929 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 01:03:47,944 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 01:03:47,945 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 01:04:00,907 [INFO] controllers: Обновлён сотрудник: 3
+2025-05-08 01:04:02,078 [INFO] controllers: Найдено сотрудников: 6 (search='')
+2025-05-08 01:04:02,078 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='')
+2025-05-08 01:04:36,925 [INFO] auth: Зарегистрирован пользователь: rewq (employee)
+2025-05-08 01:04:37,074 [INFO] controllers: Создан сотрудник: 7 — test test
+2025-05-08 01:04:38,429 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:04:38,429 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 01:04:46,312 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:04:59,848 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:05:13,491 [INFO] controllers: Найдено сотрудников: 6 (search='r')
+2025-05-08 01:05:13,491 [INFO] ui.hr_dashboard_widget: Loaded 6 employees (filter='r')
+2025-05-08 01:05:13,601 [INFO] controllers: Найдено сотрудников: 1 (search='re')
+2025-05-08 01:05:13,602 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='re')
+2025-05-08 01:05:13,771 [INFO] controllers: Найдено сотрудников: 1 (search='rew')
+2025-05-08 01:05:13,772 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='rew')
+2025-05-08 01:05:15,721 [INFO] controllers: Найдено сотрудников: 2 (search='q')
+2025-05-08 01:05:15,721 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='q')
+2025-05-08 01:05:15,813 [INFO] controllers: Найдено сотрудников: 1 (search='qw')
+2025-05-08 01:05:15,813 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='qw')
+2025-05-08 01:05:15,932 [INFO] controllers: Найдено сотрудников: 1 (search='qwe')
+2025-05-08 01:05:15,933 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='qwe')
+2025-05-08 01:05:16,116 [INFO] controllers: Найдено сотрудников: 1 (search='qwer')
+2025-05-08 01:05:16,116 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='qwer')
+2025-05-08 01:05:17,761 [INFO] controllers: Найдено сотрудников: 4 (search='i')
+2025-05-08 01:05:17,762 [INFO] ui.hr_dashboard_widget: Loaded 4 employees (filter='i')
+2025-05-08 01:05:17,841 [INFO] controllers: Найдено сотрудников: 2 (search='iv')
+2025-05-08 01:05:17,841 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='iv')
+2025-05-08 01:05:18,000 [INFO] controllers: Найдено сотрудников: 2 (search='iva')
+2025-05-08 01:05:18,001 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='iva')
+2025-05-08 01:05:19,248 [INFO] controllers: Найдено сотрудников: 2 (search='iv')
+2025-05-08 01:05:19,250 [INFO] ui.hr_dashboard_widget: Loaded 2 employees (filter='iv')
+2025-05-08 01:05:19,759 [INFO] controllers: Найдено сотрудников: 4 (search='i')
+2025-05-08 01:05:19,759 [INFO] ui.hr_dashboard_widget: Loaded 4 employees (filter='i')
+2025-05-08 01:05:19,791 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:05:19,791 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 01:05:20,754 [INFO] controllers: Найдено сотрудников: 1 (search='p')
+2025-05-08 01:05:20,754 [INFO] ui.hr_dashboard_widget: Loaded 1 employees (filter='p')
+2025-05-08 01:05:21,909 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:05:21,909 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 01:05:42,298 [INFO] root: Выход из аккаунта
+2025-05-08 01:05:50,661 [INFO] auth: Аутентификация успешна: rewq
+2025-05-08 01:05:50,662 [INFO] ui.login_widget: Успешный вход: rewq
+2025-05-08 01:05:50,662 [INFO] root: Пользователь rewq вошёл (employee)
+2025-05-08 01:06:07,204 [INFO] root: Выход из аккаунта
+2025-05-08 01:06:10,669 [INFO] auth: Аутентификация успешна: da
+2025-05-08 01:06:10,669 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 01:06:10,670 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 01:06:10,684 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:06:10,684 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-08 01:06:21,767 [INFO] root: Выход из аккаунта
+2025-05-08 01:06:28,984 [INFO] auth: Аутентификация успешна: qwer
+2025-05-08 01:06:28,985 [INFO] ui.login_widget: Успешный вход: qwer
+2025-05-08 01:06:28,985 [INFO] root: Пользователь qwer вошёл (employee)
+2025-05-08 01:06:42,149 [INFO] root: Выход из аккаунта
+2025-05-08 01:06:44,413 [INFO] auth: Аутентификация успешна: da
+2025-05-08 01:06:44,413 [INFO] ui.login_widget: Успешный вход: da
+2025-05-08 01:06:44,414 [INFO] root: Пользователь da вошёл (hr)
+2025-05-08 01:06:44,428 [INFO] controllers: Найдено сотрудников: 7 (search='')
+2025-05-08 01:06:44,428 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
