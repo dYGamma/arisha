@@ -1434,3 +1434,5 @@ WHERE employees.user_id = ?
 2025-05-08 01:06:44,414 [INFO] root: Пользователь da вошёл (hr)
 2025-05-08 01:06:44,428 [INFO] controllers: Найдено сотрудников: 7 (search='')
 2025-05-08 01:06:44,428 [INFO] ui.hr_dashboard_widget: Loaded 7 employees (filter='')
+2025-05-16 21:21:08,438 [INFO] root: Запуск приложения
+2025-05-16 21:21:30,558 [WARNING] auth: Аутентификация не удалась: admin
